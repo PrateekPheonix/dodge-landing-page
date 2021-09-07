@@ -1,0 +1,145 @@
+<!--***************************************************************************************************************
+                    SIDEBAR
+********************************************************************************************************************-->
+            <button class="sidebar-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <aside class="sidebar" style="z-index: 999;">
+                <div class="sidebar-header">
+                </div>
+                <!-- links -->
+                <ul class="links" style="z-index: 999;">
+                    <li>
+                        <a href="#home">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="#gall">gallery</a>
+                    </li>
+                    <li>
+                        <a href="#specs">Specifications</a>
+                    </li>
+                    <li>
+                        <a href="#information">Info</a>
+                    </li>
+                    <li>
+                        <a href="#rev">Reviews</a>
+                    </li>
+                    <li>
+                        <a href="#book">book your ride</a>
+                    </li>
+                </ul>
+            </aside>
+
+<!--***************************************************************************************************************
+                    TABS
+********************************************************************************************************************-->
+<a id="information"></a>
+    <div class="text2">
+        <P>Info</P>
+    </div>
+    <section class="section">
+        <div class="about-center section-center">
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">Engine, Transmission, and Performance</button>
+                    <button class="tab-btn" data-id="vision">Fuel Economy and MPG</button>
+                    <button class="tab-btn" data-id="goals">Interior, Comfort, and Cargo</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <p>
+                            IThe Challenger's base 305-hp V-6 won't satisfy thrill seekers. The modest engine mates exclusively to the eight-speed
+                            automatic, but in the heavy Challenger, it lacks the acceleration and excitement of rivals. The Dodge's Hemi V-8 engines
+                            are another story. The 375-hp 5.7-liter we tested had plenty of juice to powerslide on demand, and its guttural growl
+                            was gratifying. Those looking to maximize the Challenger's potential will want the 6.4-liter V-8, which produces 485
+                            horsepower and 475 pound-feet of torque. We also drove the T/A 392 with the automatic and admired the exhaust's
+                            cannon-blast startup sound and baritone roar when prodded. While we're suckers for a manual transmission, the ZF
+                            automatic is incredibly responsive to throttle inputs, with quick power-on downshifts. The Challenger hustles through
+                            corners like a raging bull seeing red, snorting aggressively and swaying threateningly. The burly Dodge is a muscle car
+                            in the truest sense: It's better on the street and the drag strip than on two-lanes and road courses. Since the lineup's
+                            redesign in 2015, the models we've driven have offered a compliant ride that's comfortable but a bit unrefined. Compared
+                            with the sharper and stickier handling of the Camaro and Mustang, however, the Challenger is too soft in tight turns and
+                            its steering is too numb. The slow-to-react helm is well suited to leisurely drives and easily controlled power-induced
+                            tail slides.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <p>
+                            The EPA estimates the 2021 Challenger with the V-6 and rear-wheel drive will earn 19 mpg city and 30 highway. Adding
+                            all-wheel drive into the mix nixes those ratings by 1 and 3 mpg, respectively. Challengers with the 5.7-liter V-8 are
+                            expected to earn up to 16 mpg city and 25 highway. Versions with the 6.4-liter V-8 are rated up to 15 mpg city and 24
+                            highway. We've tested the all-wheel-drive V-6 Challenger and one with the 485-hp V-8 and automatic transmission on our
+                            75-mph real-world route, which is part of our extensive testing regimen. Surprisingly, they both earned 26 mpg on the
+                            highway.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <p>
+                            The Challenger has a classic muscle-car interior, with a simple design inspired by its 1970s-era predecessors and
+                            comfortable accommodations. Compared with its pony-car rivals, the Dodge is far roomier inside, and adults can actually
+                            use the back seat. Unfortunately, its rubberized materials resemble old vinyl rather than premium plastic, and rear
+                            visibility is lousy. The Challenger's broad front seats are comfortable for cruising, but even the optional seats, which
+                            have added bolstering, don't hug their occupants the way those in the Camaro or Mustang do. Dodge's pony car has an
+                            extra seven cubic feet of cargo space in its trunk versus the Camaro. This allows the Challenger to swallow two more
+                            bags of luggage than the Camaro. Fold the back seats down and that advantage grows to six. The Challenger has a big
+                            center-console bin and a useful spot for a smartphone. Still, none of the cars we tested in this class were particularly
+                            adept at storing small items.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        </div>
+    </section>
+<!--***************************************************************************************************************
+                    Reviews
+********************************************************************************************************************-->
+<a id="rev"></a>
+    <main>
+        <section class="container">
+            <!-- title -->
+            <div class="title">
+                <h2 class="text2">Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- review -->
+            <article class="review">
+                <div class="img-container">
+                    <img src="person-1.jpeg" id="person-img" alt="" />
+                </div>
+                <h4 id="nameowner">Sara Jones</h4>
+                <p id="own">8 years ago</p>
+                <p id="info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                    asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+                    Iste, doloremque nihil?
+                </p>
+                <!-- prev next buttons-->
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+<!--***************************************************************************************************************
+                    Javascript
+********************************************************************************************************************-->
+
+    <script src="./JavaScript/sidebar.js"></script>
+    <script src="./JavaScript/tab.js" ></script>
+    <script src="./JavaScript/review.js"></script>
+    <script src="./JavaScript/bookbtn.js"></script>

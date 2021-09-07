@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <link rel="stylesheet" href="./CSS/form.css"/>
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="text2">
+            <p>Book Your Ride Right Away!!!!</p>
+        </div>
+        <div class="form bgform">
+            <div class="form-style-2">
+                <form id="form">
+                    <span class="first">
+                        First Name : <input class="input-field" name="first" type="text" id="first"/>
+                    </span>
+                    <br />
+                    <span class="last">
+                        Last Name : <input class="input-field" type="text" id="last"/>
+                    </span>
+                    <br />
+                    <span class="mail">
+                        E-Mail : <input class="input-field" type="email" id="email" />
+                    </span>
+                    <br />
+                    <span class="phone">
+                        Phone : <input class="input-field" type="tel" id="phone" maxlength="10"/>
+                    </span>
+                    <br />
+                    <span class="pin">
+                        PIN Code : <input class="input-field" type="number" id="pin" maxlength="6"/>
+                    </span>
+                    <br />
+                    <span class="Mname">
+                        Choose Model Name :
+                        <select class="select-field" name="ModelName" id="">
+                            <option default="">None</option>
+                            <option value="SXT">SXT</option>
+                            <option value="GT">GT</option>
+                            <option value="ScarCat">Scar Cat</option>
+                            <option value="HellCat">Hell Cat</option>
+                            <option value="Demon">Demon</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="Myear">
+                        Select Model Year:
+                        <select class="select-field" name="ModelYear" id="">
+                            <option default="">None</option>
+                            <option value="2005">2005</option>
+                            <option value="2008">2008</option>
+                            <option value="2012">2012</option>
+                            <option value="2020">2020</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="Mcolor">
+                        Select Colour :
+                        <select class="select-field" name="color" id="">
+                            <option default="">None</option>
+                            <option value="red">Red</option>
+                            <option value="black">Black</option>
+                            <option value="orange">Orange</option>
+                            <option value="blue">Blue</option>
+                            <option value="olive">Olive</option>
+                        </select>
+                    </span>
+                    <br />
+                    <span class="buttons">
+                        <input type="submit" value="Submit" id="submit"/>
+                        <input type="reset" value="Clear" id="clear"/>
+                    </span>
+                </form>
+                <img class="formimg" src="./Media/2020-dodge-challenger-vlp-gallery-1.jpg.image.700.webp" alt="#" />
+            </div>
+        </div>
+        <script src="./JavaScript/cookies.js"></script>
+    </body>
+</html>

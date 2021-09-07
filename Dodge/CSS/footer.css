@@ -1,0 +1,74 @@
+.footer {
+  width: 100vw;
+  height: 250px;
+  background-color: black;
+}
+
+.footertext li {
+  color: white;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#vehicles {
+  position: relative;
+  top: 45px;
+}
+
+#cost {
+  position: relative;
+  left: 200px;
+  top: -85px;
+}
+
+#services {
+  position: relative;
+  left: 470px;
+  top: -212px;
+}
+
+#research {
+  position: relative;
+  left: 780px;
+  top: -340px;
+}
+
+.icons {
+  position: relative;
+  top: -475px;
+  left: 1100px;
+  /* background-color: white; */
+  height: 100px;
+  width: 350px;
+}
+
+.textfollow {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a i {
+  color: white;
+  /* color: black; */
+}
+
+.i1 {
+  position: relative;
+}
+
+.i2 {
+  position: relative;
+  left: 20px;
+}
+
+.i3 {
+  position: relative;
+  left: 40px;
+}
+
+.i4 {
+  position: relative;
+  left: 60px;
+}

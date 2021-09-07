@@ -1,0 +1,26 @@
+.gallerydiv {
+  width: 50vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+.galleryimg {
+  display: block;
+  width: 1000px;
+  height: 1000px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.slant {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  /* transform: rotate(-2.5deg); */
+  position: absolute;
+  bottom: -3547px;
+  left: -7px;
+  z-index: 100;
+}

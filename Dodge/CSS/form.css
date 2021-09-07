@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.text2 {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  word-spacing: 7px;
+  /* background-color: #f5623d; */
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.form-style-2 {
+  max-width: 500px;
+  padding: 20px 12px 10px 20px;
+  font-family: "Barlow", sans-serif;
+  position: relative;
+}
+
+.form-style-2 input.input-field,
+.form-style-2 .select-field {
+  width: 50%;
+}
+.form-style-2 input.input-field,
+.form-style-2 .tel-number-field,
+.form-style-2 .textarea-field,
+.form-style-2 .select-field {
+  box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  box-shadow: 1px 1px 4px #ebebeb;
+  border-radius: 3px;
+  padding: 7px;
+  outline: none;
+}
+.form-style-2 .input-field:focus,
+.form-style-2 .tel-number-field:focus,
+.form-style-2 .textarea-field:focus,
+.form-style-2 .select-field:focus {
+  border: 1px solid #0c0;
+}
+.form-style-2 .textarea-field {
+  height: 100px;
+  width: 55%;
+}
+.form-style-2 input[type="submit"],
+.form-style-2 input[type="reset"],
+.form-style-2 input[type="button"] {
+  border: none;
+  padding: 8px 15px 8px 15px;
+  background: #ff8500;
+  width: 40%;
+  margin: 20px;
+  color: #fff;
+  box-shadow: 1px 1px 4px #dadada;
+  border-radius: 3px;
+}
+.form-style-2 input[type="submit"]:hover,
+.form-style-2 input[type="reset"]:hover,
+.form-style-2 input[type="button"]:hover {
+  background: #ea7b00;
+  color: #fff;
+}
+
+.form {
+  margin: auto;
+  margin-left: 14%;
+  height: 500px;
+  width: 79.5%;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+  font-family: "Barlow", sans-serif;
+}
+
+.form input option {
+  display: flex;
+}
+
+.formimg {
+  position: relative;
+  border-radius: 0px 30px 30px 0px;
+  height: 450px;
+  width: 70%;
+  bottom: 325px;
+  left: 770px;
+}
+
+.first {
+  position: relative;
+  right: -30px;
+  top: 20px;
+}
+
+.last {
+  position: relative;
+  top: -13px;
+  right: -400px;
+}
+
+.mail {
+  position: relative;
+  top: 23px;
+  right: -64px;
+}
+
+.phone {
+  position: relative;
+  top: -10px;
+  right: -430px;
+}
+
+.pin {
+  position: relative;
+  top: 23px;
+  right: -45.5%;
+}
+
+.Mname {
+  position: relative;
+  top: 50px;
+  right: -30%;
+}
+
+.Myear {
+  position: relative;
+  top: 80px;
+  right: -34%;
+}
+
+.Mcolor {
+  position: relative;
+  top: 110px;
+  right: -38.5%;
+}
+
+.buttons {
+  position: relative;
+  top: 130px;
+  right: -30%;
+}
+
+.buttons input {
+  cursor: pointer;
+}
