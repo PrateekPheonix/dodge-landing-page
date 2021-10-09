@@ -10,7 +10,7 @@ main {
   margin-bottom: 4rem;
 }
 .underline {
-  height: 0.25rem;
+  height: 0.3rem;
   width: 5rem;
   background: #ff0000;
   margin-left: auto;
@@ -21,23 +21,23 @@ main {
   max-width: 620px;
 }
 .review {
-  background: #fff;
+  background: #ffffff;
   padding: 1.5rem 2rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.30rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: all 0.3s linear;
   text-align: center;
 }
 .review:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .img-container {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   margin: 0 auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.6rem;
 }
 #person-img {
   width: 100%;
